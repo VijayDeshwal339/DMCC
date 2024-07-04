@@ -5,17 +5,23 @@ module.exports = {
     fontFamily: {
       'poppin': ['Poppins'],
       'Inter':['Inter'],
-      'Arial':['Arimo'],
-      
+      'Arial':['Arimo'], 
     },
     extend: {
+      screens: {
+        'xs':'0px',
+        'sm': '480px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',
+      },
       lineHeight: {
         '22.69':'22.69px',
         '24': '24px',
         '26': '26px',
         '27': '27px',
         '28': '28px',
-        
         '32': '32px',
         '35': '35px',
         '39': '39px',

@@ -7,7 +7,7 @@ const First = () => {
   return (
     <div className='h-[530px] flex flex-col gap-10 items-center justify-center text-white text-center' style={{ backgroundImage: `url(${Rectangle})`,backgroundSize: 'cover',backgroundPosition: 'center', }}>
 
-      <p className='font-poppin font-bold leading-50  md:leading-66 text-35 md:text-55'>Are You a Supplier?<br></br> <span className='font-normal'>Explore Matching Opportunities.</span></p>
+      <p className='font-poppin font-bold leading-32 text-24 sm:leading-50  md:leading-66 sm:text-35 md:text-55'>Are You a Supplier?<br></br> <span className='font-normal'>Explore Matching Opportunities.</span></p>
 
       <div className='flex flex-col lg:flex-row  items-center gap-4'>
 

@@ -4,7 +4,7 @@ import arrow from '../assests/arrow.png'
 const Second = () => {
   return (
     // main div
-    <div className='flex flex-col lg:flex-row w-[87.6%] mx-auto mt-[95px] mb-[112px] items-center gap-10 md:justify-between'>
+    <div className='flex flex-col lg:flex-row xs:w-[100%] sm:w-[87.6%] sm:mx-auto mt-[95px] mb-[112px] items-center gap-10 md:justify-between'>
 
      {/* left div */}
      <div className='flex flex-col lg:ml-5 justify-center items-center w-[80%] lg:items-start  sm:w-[90%] lg:w-[46%] gap-11'>
@@ -13,7 +13,7 @@ const Second = () => {
 
       <p className='font-poppin font-light text-14 md:text-17.16 leading-28'>Signing up with HABOT opens the door to a world of new opportunities and potential for business growth. Gain access to a vibrant community of like-minded individuals, unlock valuable resources, and take the first step towards realizing your entrepreneurial dreams.</p>
 
-      <button className='flex rounded-md bg-[#00732F] w-[317px] h-[54px] items-center justify-end text-white gap-[40px] font-poppin font-bold text-18 leading-24'>Sign up Today ! <img src={arrow} alt='arrow' className='mr-[25px] w-[32px] h-[16.08px]'/></button>
+      <button className='flex rounded-md bg-[#00732F] xs:w-[100%] sm:w-[317px] h-[54px] items-center justify-end text-white gap-[40px] font-poppin font-bold text-18 leading-24'>Sign up Today ! <img src={arrow} alt='arrow' className='mr-[25px] w-[32px] h-[16.08px]'/></button>
 
      </div>
 
